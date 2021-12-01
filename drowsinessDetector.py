@@ -1,11 +1,16 @@
 import cv2
 import dlib
 import time
+# Detección de micro Sueños
+# Andrés Yanquén
+# #Julián Parra
+# Universidad Pedagógica y Tecnológica de Colombia
+# Especialización en Telecomunicaciones
+
 from scipy.spatial import distance
 from playsound import playsound
 import threading
 from threading import Timer, Thread, Event
-
 
 conteo = 0
 conteoOjosAbiertos = 0
